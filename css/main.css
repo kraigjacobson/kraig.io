@@ -29,27 +29,26 @@
     -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
     -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
     animation-name: jumbotronText;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
 }
-#s1 {animation-delay: 2s;}
 #s2 {animation-delay: 4s;}
-#s3 {animation-delay: 6s;}
-#s4 {animation-delay: 8s;}
-#s5 {animation-delay: 10s;}
+#s3 {animation-delay: 8s;}
+#s4 {animation-delay: 12s;}
+#s5 {animation-delay: 16s;}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes jumbotronText {
     0% {opacity: 0;}
-    5% {opacity: 1;}
-    20% {opacity: 0;}
+    10% {opacity: 1;}
+    25% {opacity: 0;}
     100% {opacity: 0;}
 }
 
 @keyframes jumbotronText {
     0% {opacity: 0;}
-    5% {opacity: 1;}
-    20% {opacity: 0;}
+    10% {opacity: 1;}
+    25% {opacity: 0;}
     100% {opacity: 0;}
 }
