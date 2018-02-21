@@ -1,0 +1,63 @@
+.bg-dark {
+    background-color: #3AC6F3 !important;
+}
+
+h2 {
+    color: #3AC6F3 !important;
+}
+
+.jumbotron {
+    background-color: black;
+    background-image:url('../road.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .jumbotron {
+        -ms-background-position-y:58%;
+        background-position-y:58%;
+    }
+}
+/*Animations*/
+
+.animspan {
+    position: absolute;
+}
+.jumbotron p {
+    position: relative;
+}
+.jumbotron span {
+    opacity: 0;
+    position: absolute;
+    -webkit-animation-name: jumbotronText;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation-name: jumbotronText;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+#s1 {animation-delay: 2s;}
+#s2 {animation-delay: 4s;}
+#s3 {animation-delay: 6s;}
+#s4 {animation-delay: 8s;}
+#s5 {animation-delay: 10s;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes jumbotronText {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    20% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes jumbotronText {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    20% {opacity: 0;}
+    100% {opacity: 0;}
+}
