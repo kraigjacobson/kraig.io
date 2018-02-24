@@ -1,5 +1,19 @@
-.col-md-4 img {
+body {
+    margin-bottom: 100px;
+}
+.img-thumbnail {
     margin-bottom:15px;
+}
+a {
+    color: #c2944a;
+}
+a:hover {
+    color: #63adfd;
+    text-decoration: none;
+}
+.btn-secondary {
+    background-color: #c2944a;
+    border-color: #a87a48;
 }
 .jumbotron {
     background-color: black;
