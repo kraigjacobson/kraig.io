@@ -1,27 +1,48 @@
 body {
     margin-bottom: 100px;
+    color: #555555;
 }
 .img-thumbnail {
     margin-bottom:15px;
 }
 a {
-    color: #c2944a;
+    color: #EF5C4E;
 }
 a:hover {
-    color: #63adfd;
+    color: #BD4A3F;
     text-decoration: none;
 }
 .btn-secondary {
-    background-color: #c2944a;
-    border-color: #a87a48;
+    background-color: #EF5C4E;
+    border-color: #BD4A3F;
 }
 .jumbotron {
+    position: relative;
     background-color: black;
     background-image:url('../road.jpeg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     color: white;
+}
+.inner {
+    position:relative;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    color:white;
+    z-index:10;
+}
+.notext{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.5;
+    display:inline-block;
 }
 
 @media screen and (min-width: 800px) {
